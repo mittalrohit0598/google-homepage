@@ -253,7 +253,7 @@ h4 {
     display: flex;
     overflow-x: auto;
     width: 670px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .channel {
@@ -267,4 +267,150 @@ h4 {
 
 .date {
     color: #808080;
+}
+
+#people-also-ask {
+    border: 1px solid #dfe1e5;
+    border-radius: 8px;
+    width: 670px;
+    margin-bottom: 30px;
+}
+
+#people-also-ask p {
+    border-top: 1px solid #dfe1e5;
+    padding: 9px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 1.58;
+}
+
+#people-also-ask h3{
+    padding: 9px 16px;
+}
+
+#q-and-a #asked-ques {
+    display: flex;
+    overflow-x: auto;
+    width: 670px;
+    margin: 10px -4px 30px;
+}
+
+#q-and-a > #asked-ques > div {
+    border: 1px solid #dfe1e5;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 13px 16px 11px;
+    height: 216px;
+    min-width: 178px;
+    margin: 4px;
+    position: relative;
+    overflow: visible;
+}
+
+#q-and-a p {
+    line-height: 20px;
+    max-height: 100px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+#q-and-a .dots {
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    left: 181px;
+    top: 17px;
+}
+
+#q-and-a .thumbs-up {
+    width: 16px;
+    height: 16px;
+}
+
+#q-and-a .thumbs-down {
+    width: 16px;
+    height: 16px;
+}
+
+.circle1 {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 110px;
+    top: 200px;
+    padding: 8px;
+    border: 1px solid #dfe1e5;
+    border-radius: 50%;
+}
+
+.circle2 {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 150px;
+    top: 200px;
+    padding: 8px;
+    border: 1px solid #dfe1e5;
+    border-radius: 50%;
+}
+
+.time {
+    color: #70757A;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+#q-and-a a {
+    color: #1967d2;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+#q-and-a a:hover {
+    text-decoration: underline;
+}
+
+.ans {
+    padding: 6px 10px;
+    text-align: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 14px;
+    width: 50px;
+    position: absolute;
+    left: 20px;
+    top: 200px;
+}
+
+#ask-ques {
+    border: 1px solid #dfe1e5;
+    border-radius: 8px;
+    width: 670px;
+    margin-bottom: 30px;
+}
+
+#ask-ques img{
+    width: 40px;
+    padding: 15px;
+}
+
+#ask-ques div {
+    display: flex;
+}
+
+#ask-ques input {
+    height: 40px;
+    width: 546px;
+    border: 1px solid #dfe1e5;
+    margin: auto;
+    margin-left: 0;
+    border-radius: 8px;
+    padding-left: 20px;
+}
+
+#forward {
+    height: 18px;
+    max-width: 18px;
+    position: relative;
+    top: 10px;
+    right: 50px;
 }
