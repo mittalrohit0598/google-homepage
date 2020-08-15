@@ -241,7 +241,7 @@ h4 {
     text-decoration: underline;
 }
 
-#video {
+.video {
     position: relative;
     min-width: 212px;
     height: 306px;
