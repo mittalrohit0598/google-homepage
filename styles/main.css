@@ -436,6 +436,7 @@ h4 {
     display: flex;
     overflow-x: scroll;
     margin-bottom: 10px;
+    width: 670px;
 }
 
 #images > div > div {
@@ -448,4 +449,24 @@ h4 {
 
 #images > a {
     font-size: 16px;
+}
+
+footer {
+    background: #f2f2f2;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer div {
+    margin-left: 170px;
+}
+
+footer a {
+    color: #5f6368;
+    padding-right: 27px;
+    margin: 0;
+}
+
+footer a:hover {
+    color: black;
 }
