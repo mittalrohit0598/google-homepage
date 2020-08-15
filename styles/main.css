@@ -72,6 +72,7 @@ header div{
 
 #sign-in {
     height: 36px;
+    width: 95px;
     padding: 9px 23px;
     cursor: pointer;
     background: #1a73e8;
@@ -109,14 +110,12 @@ header div{
 
 nav {
     display: flex;
-    border-bottom: 1px solid #ebebeb;
     padding-bottom: 10px;
     line-height: 16px;
-}
-
-nav::before {
-    content: " ";
-    margin-left: 160px;
+    margin: 0 auto 0 0;
+    width: 1119px;
+    padding-left: 160px;
+    border-bottom: 1px solid #ebebeb;
 }
 
 nav img {
@@ -413,4 +412,18 @@ h4 {
     position: relative;
     top: 10px;
     right: 50px;
+}
+
+#searches-related-to > div{
+    display: flex;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+#searches-related-to li {
+    padding: 3px 32px 3px 0;
+}
+
+#searches-related-to a:hover {
+    text-decoration: underline;
 }
