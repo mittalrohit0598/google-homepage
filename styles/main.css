@@ -152,6 +152,10 @@ main {
     margin: 0 auto 0 170px;
 }
 
+main > div {
+    margin-bottom: 30px;
+}
+
 #result-stats {
     padding: 8px 0;
     color: #70757a;
@@ -417,7 +421,7 @@ h4 {
 #searches-related-to > div{
     display: flex;
     line-height: 20px;
-    margin-bottom: 30px;
+    margin: 10px 0 30px;
 }
 
 #searches-related-to li {
@@ -426,4 +430,22 @@ h4 {
 
 #searches-related-to a:hover {
     text-decoration: underline;
+}
+
+#images > div {
+    display: flex;
+    overflow-x: scroll;
+    margin-bottom: 10px;
+}
+
+#images > div > div {
+    border-radius: 4px;
+    overflow: hidden;
+    min-width: 110px;
+    margin-right: 8px;
+    border: 1px solid #dfe1e5;
+}
+
+#images > a {
+    font-size: 16px;
 }
